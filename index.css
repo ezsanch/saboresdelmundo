@@ -1,0 +1,32 @@
+#logo{
+    width: 100px;
+
+}
+#soporte{
+    width: 80px;
+}
+.container-fluid{
+    background-color:beige;
+}
+h1{
+    
+  font-family: "Roboto Condensed", sans-serif;
+  
+
+
+}
+body{
+    
+    background-image: url(fondooscuro.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: beige;
+  
+
+}
+.pais{
+    text-align: center;
+    color: white;
+}
