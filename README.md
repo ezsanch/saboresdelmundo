@@ -1,52 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="saboresdelmundo.jpg">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <title>Sabores del mundo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <style>
-</style>
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-   <img src="saboresdelmundo-removebg-preview.png" alt="" id="logo"><h1>SABORES DEL MUNDO</h1>
-    <div class="contenedor-imagenes">
+#logo{
+    width: 100px;
 
-   <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl" target="blank"><img src="AYUDA-removebg-preview.png" id="soporte"></a>
- 
+}
+#soporte{
+    width: 80px;
+}
+.container-fluid{
+    background-color:beige;
+}
+h1{
+    
+  font-family: "Roboto Condensed", sans-serif;
   
 
-</div>
-  
-    </div>
-  </div>
-</nav>
-<br>
-<br>
-<div class="pais">
-    <h1>¡BUSCA POR PAIS!</h1></div>
-  </div>
-  <br>  
-    <div class="paises1">
-      
-      <a href=""><img src="italia.png" alt=""></a>
-      <a href="argentina.html"><img src="arg band.png" alt=""></a>
-      <a href=""><img src="fran band.png" alt=""></a>
-    </div>
-    <br>
-    <br>
-    <div class="paises2">
-     <a href=""><img src="band jap.png" alt=""></a>
-      <a href=""><img src="band esp.png" alt=""></a>
-      <a href=""><img src="maxicoo.png" alt=""></a>
-    </div>
 
-</body>
-</html>
+}
+body{
+    
+    background-image: url(fondooscuro.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: beige;
+  
+
+}
+.pais{
+    text-align: center;
+    color: white;
+}
+.paises1 { 
+    display: flex; 
+    justify-content: center; 
+    gap: 60px; 
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: fit-content; 
+}
+.paises2 {
+     display: flex; 
+    justify-content: center; 
+    gap: 60px; 
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: fit-content; 
+}
