@@ -1,0 +1,24 @@
+h1{
+    font-family: "Outfit", sans-serif;
+}
+h2{
+    font-family: "Outfit", sans-serif;
+    color: rgb(85, 42, 1);
+}
+h3{
+    font-family: "Outfit", sans-serif;
+}
+#ingredientes{
+    color: black;
+}
+#Paso{
+color: black;
+}
+iframe{
+ display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#VIDEO{
+    text-align: center;
+}
